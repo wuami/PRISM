@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://54.200.211.229/BrainHealth" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="u3SYln2F2v.BrainHealth" package="u3SYln2F2v" required_version="2.2"/>
+    <author href="www.maulik-kamdar.com" email="maulikrk@stanford.edu">Maulik Kamdar</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor"/>
+    <feature name="http://tizen.org/feature/sensor.accelerometer"/>
+    <feature name="http://tizen.org/feature/sensor.gyroscope"/>
+    <feature name="http://tizen.org/feature/sensor.magnetometer"/>
+    <feature name="http://tizen.org/feature/sensor.photometer"/>
+    <icon src="icon.png"/>
+    <name>BrainHealth</name>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
+    <tizen:privilege name="http://tizen.org/privilege/filesystem.write"/>
+    <tizen:privilege name="http://developer.samsung.com/privilege/healthinfo"/>
+    <tizen:setting background-support="enable"/>
+</widget>
